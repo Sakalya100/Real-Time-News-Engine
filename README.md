@@ -8,7 +8,7 @@ We have the popular Yahoo-Finance for finance, HackerRank for tech, ESPN for spo
 This pattern of the application we're going to build is commonly used as part of RAGs, the only difference here being that we won't use an LLM, but actually focus on the Data Ingestion, Processing and Retrieval  - which are the key points of a RAG. 
 
 
-![Architecture](./media/upstash_news_search_engine_system_architecture.png)
+![Architecture](./media/Architecture.png)
 
 <b>Here's what we're going to proceed with the project: </b>
 - ingest articles from news APIs
