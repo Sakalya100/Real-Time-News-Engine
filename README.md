@@ -124,7 +124,7 @@ This article is an open-source project released under the MIT license. Thus, as 
     <td><a href="https://github.com/Sakalya100" target="_blank"><img src="https://github.com/Sakalya100.png" width="100" style="border-radius:50%;"/></a></td>
     <td>
       <strong>Sakalya Mitra</strong><br />
-      <i>SML Engineer| Data Scientist</i>
+      <i>ML Developer| Data Scientist</i>
     </td>
   </tr>
 </table>
