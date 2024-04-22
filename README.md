@@ -1,17 +1,16 @@
 # Real-time news search engine using Upstash Kafka and Vector DB
 
-In this article, we'll go over how you can design, build and operate a real-time news search engine using live ingested data from various news APIs.
+This is a real-time news search engine using live ingested data from various news APIs.
 
 In today's digital age, we could say that the flux of data has grown exponentially, requiring accurate acquisition, curation, parsing, categorization, and organization into a coherent structure. With the recent advancements of LLM and AI Generated content, it might become hard for you to filter your information stream. The scope of this article is to tackle just that - by providing a customizable way of updating your Knowledge Base. In real-world scenarios, data is flowing continuously, it requires constant fetching, curating, parsing, grouping and presenting it in a structured format.
 We have the popular Yahoo-Finance for finance, HackerRank for tech, ESPN for sports, all these platforms follow an underlying principle - provide niched, high-quality news articles.
 
 This pattern of the application we're going to build is commonly used as part of RAGs, the only difference here being that we won't use an LLM, but actually focus on the Data Ingestion, Processing and Retrieval  - which are the key points of a RAG. 
 
-> **_NOTE:_**  However, extensibility won't be a problem, since you'll be able to customize and feed the retrieved content to an LLM easily by routing it through a PromptTemplate, and then pass it to an LLM for analysis, summarisation or any other task.
 
 ![Architecture](./media/upstash_news_search_engine_system_architecture.png)
 
-<b>Here's what we're going to learn how to: </b>
+<b>Here's what we're going to proceed with the project: </b>
 - ingest articles from news APIs
 - spawn multiple Kafka Producer threads and push messages to Upstash Kafka cluster
 - use Bytewax to process payloads from Kafka
@@ -20,7 +19,6 @@ This pattern of the application we're going to build is commonly used as part of
 
 ## Table of Contents
 
-- [Articles](#articles)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Usage](#usage)
@@ -28,14 +26,6 @@ This pattern of the application we're going to build is commonly used as part of
 - [License](#license)
 - [Author](#contributors)
 
-
-
-## Articles
-
-This is a code-first summary version, make sure to read the article in full ↓
-
-1. [Summary]()
-2. [Full](https://medium.com/decodingml/how-to-build-a-real-time-news-search-engine-using-serverless-upstash-kafka-and-vector-db-6ba393e55024)
 
 ## Dependencies
 
@@ -131,10 +121,10 @@ This article is an open-source project released under the MIT license. Thus, as 
 
 <table>
   <tr>
-    <td><a href="https://github.com/Joywalker" target="_blank"><img src="https://github.com/Joywalker.png" width="100" style="border-radius:50%;"/></a></td>
+    <td><a href="https://github.com/Sakalya100" target="_blank"><img src="https://github.com/Sakalya100.png" width="100" style="border-radius:50%;"/></a></td>
     <td>
-      <strong>Razvant Alex</strong><br />
-      <i>Senior ML Engineer</i>
+      <strong>Sakalya Mitra</strong><br />
+      <i>SML Engineer| Data Scientist</i>
     </td>
   </tr>
 </table>
